@@ -1,0 +1,386 @@
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"); }
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff"); }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body {
+  font-family: "OpenSans", "Arial", sans-serif;
+  margin: 0; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.page-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1440px; }
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    padding: 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+
+.main-header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  background: #fff; }
+
+.main-header__wr {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .main-header__wr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 5px 0 10px; } }
+
+.logo {
+  text-decoration: none; }
+
+.logo-image {
+  width: 100%; }
+
+.logo-desc {
+  display: block;
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center; }
+
+@media (min-width: 365px) {
+  .logo-desc {
+    font-size: 14px; } }
+
+@media (min-width: 465px) {
+  .logo-desc {
+    font-size: 16px; } }
+
+@media (min-width: 565px) {
+  .logo-desc {
+    font-size: 20px; } }
+
+@media (min-width: 768px) {
+  .logo-image {
+    width: 280px; }
+  .logo-desc {
+    font-size: 14px; } }
+
+.messengers {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 184px;
+  max-width: 320px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  padding: 0; }
+
+.messengers__connect {
+  margin: 0;
+  text-align: center;
+  width: 100px; }
+
+.messengers__vk, .messengers__instagram, .messengers__whatsapp {
+  margin-right: 8px; }
+
+.messengers__instagram {
+  margin-left: 3px; }
+
+.messengers__telegram {
+  margin-right: 10px; }
+
+.messengers__link {
+  font-size: 38px;
+  position: relative; }
+
+.messengers__link span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0; }
+
+.messengers__link svg {
+  position: relative;
+  z-index: 10; }
+
+.fa-instagram {
+  color: #bf4d89; }
+
+.fa-vk {
+  color: #4a76a8; }
+
+.fa-whatsapp {
+  color: #3ce34b; }
+
+.fa-telegram-plane {
+  color: #3cbae2; }
+
+.messengers__instagram span {
+  background-color: #bf4d89; }
+
+.messengers__vk span {
+  background-color: #4a76a8; }
+
+.messengers__whatsapp span {
+  background-color: #3ce34b; }
+
+.messengers__telegram span {
+  background-color: #3cbae2; }
+
+.messengers__link:hover svg, .messengers__link:focus svg {
+  color: #fff; }
+
+.messengers__link:hover span, .messengers__link:focus span {
+  width: 46px;
+  height: 46px;
+  border-radius: 2.6rem;
+  margin: -23px; }
+
+.messengers__link[title="Telegram"]:hover span, .messengers__link[title="Telegram"]:focus span {
+  margin: -23px -23px -23px -21px; }
+
+.messengers_call-button {
+  width: 174px;
+  padding: 8px 0;
+  border: 1px solid #355c80;
+  background: #5b9bd5;
+  display: block;
+  margin-right: 6px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff; }
+
+@media (min-width: 768px) {
+  .messengers {
+    margin: 0;
+    max-width: 340px;
+    width: 190px; }
+  .messengers__link {
+    font-size: 40px; }
+  .messengers__link:hover span, .messengers__link:focus span {
+    width: 50px;
+    height: 50px;
+    border-radius: 2.6rem;
+    margin: -25px; }
+  .messengers__link[title="Telegram"]:hover span, .messengers__link[title="Telegram"]:focus span {
+    margin: -25px -25px -25px -23px; } }
+
+.desc {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center; }
+
+.desc__info {
+  font-weight: 400;
+  text-transform: none;
+  font-size: 11px;
+  display: block; }
+
+@media (min-width: 768px) {
+  .desc {
+    width: 300px;
+    margin: 0; } }
+
+.show-nav {
+  width: 50px;
+  height: 5px;
+  background: #b9b9b9;
+  border: none;
+  margin: 15px 0;
+  position: absolute;
+  bottom: -4px;
+  right: 30px; }
+
+.show-nav::before, .show-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 5px;
+  background: #b9b9b9; }
+
+.show-nav::before {
+  top: -12px; }
+
+.show-nav::after {
+  bottom: -12px; }
+
+@media (min-width: 768px) {
+  .show-nav {
+    display: none; } }
+
+.main-menu {
+  display: none;
+  list-style: none;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0; }
+
+.main-menu__link {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 700; }
+
+.main-menu__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+
+@media (min-width: 768px) {
+  .main-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: none; }
+  .main-menu__item {
+    border: none;
+    text-decoration: underline;
+    font-weight: 400; } }
+
+.page-main {
+  padding-top: 210px; }
+
+@media (min-width: 430px) {
+  .page-main {
+    padding-top: 240px; } }
+
+@media (min-width: 530px) {
+  .page-main {
+    padding-top: 270px; } }
+
+@media (min-width: 630px) {
+  .page-main {
+    padding-top: 290px; } }
+
+@media (min-width: 768px) {
+  .page-main {
+    padding-top: 170px; } }
+
+.slider img {
+  max-width: 100%; }
+
+.support {
+  min-height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0 20px; }
+
+.support h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.support p {
+  text-align: center; }
+
+.support input {
+  width: 100%;
+  height: 30px; }
+
+.support label {
+  display: block;
+  padding: 10px; }
+
+.support button {
+  width: 174px;
+  padding: 8px 0;
+  border: 1px solid #355c80;
+  background: #5b9bd5;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff; }
+
+@media (min-width: 768px) {
+  .support {
+    max-width: 360px; } }
+
+@media (min-width: 768px) {
+  .support {
+    height: 100%; } }
