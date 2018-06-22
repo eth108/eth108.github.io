@@ -2,6 +2,7 @@
 var openedMenu = false;
 var openMenuBtn = document.querySelector('.show-nav');
 var menu = document.querySelector('.main-menu');
+var messengers = document.querySelector('.messengers');
 
 if (screen.width < 780) {
   document.querySelector('.desc').classList.add('visually-hidden');
@@ -12,9 +13,11 @@ if (screen.width < 780) {
 openMenuBtn.addEventListener('click', function () {
   if (!openedMenu) {
     menu.style.display = 'block';
+    messengers.style.display = 'flex';
     openedMenu = true;
   } else {
     menu.style.display = 'none';
+    messengers.style.display = 'none';
     openedMenu = false;
   }
 });

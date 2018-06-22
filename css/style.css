@@ -63,7 +63,7 @@ img {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  min-height: 140px; }
+  margin-bottom: 10px; }
 
 @media (min-width: 768px) {
   .main-header__wr {
@@ -77,20 +77,32 @@ img {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding: 5px 0 10px; } }
+    padding: 5px 200px 10px 0; } }
+
+@media (min-width: 1110px) {
+  .main-header {
+    padding: 10px 0 0; }
+  .main-header__wr {
+    width: 68%;
+    margin: 0 0 auto 0;
+    padding: 5px 0 0 90px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-bottom: 0; } }
 
 .logo {
   text-decoration: none; }
 
 .logo-image {
-  width: 100%; }
+  width: 70%; }
 
 .logo-desc {
   display: block;
   color: #000;
   font-weight: 700;
   font-size: 12px;
-  text-align: center; }
+  line-height: 24px; }
 
 @media (min-width: 365px) {
   .logo-desc {
@@ -108,7 +120,12 @@ img {
   .logo-image {
     width: 280px; }
   .logo-desc {
-    font-size: 14px; } }
+    font-size: 12px; } }
+
+@media (min-width: 1024px) {
+  .logo-image {
+    height: 56px;
+    margin-top: -10px; } }
 
 .messengers {
   list-style: none;
@@ -120,8 +137,7 @@ img {
   flex-wrap: wrap;
   width: 184px;
   max-width: 320px;
-  margin-bottom: 10px;
-  margin-right: auto;
+  margin: 10px auto;
   padding: 0; }
 
 .messengers__connect {
@@ -208,6 +224,9 @@ img {
 
 @media (min-width: 768px) {
   .messengers {
+    position: absolute;
+    top: 30px;
+    right: 20px;
     margin: 0;
     max-width: 340px;
     width: 190px;
@@ -224,6 +243,11 @@ img {
   .messengers__link[title="Telegram"]:hover span, .messengers__link[title="Telegram"]:focus span {
     margin: -25px -25px -25px -23px; } }
 
+@media (min-width: 1110px) {
+  .messengers {
+    top: 20px;
+    right: 74px; } }
+
 .desc {
   text-transform: uppercase;
   font-weight: 700;
@@ -238,8 +262,16 @@ img {
 
 @media (min-width: 768px) {
   .desc {
-    width: 300px;
+    width: 250px;
     margin: 0; } }
+
+@media (min-width: 1024px) {
+  .desc {
+    width: 320px;
+    margin: 0 0 0 auto;
+    font-size: 18px; }
+  .desc__info {
+    font-size: 13px; } }
 
 .show-nav {
   width: 50px;
@@ -248,8 +280,8 @@ img {
   border: none;
   margin: 15px 0;
   position: absolute;
-  bottom: -4px;
-  right: 30px; }
+  top: 18px;
+  right: 0px; }
 
 .show-nav::before, .show-nav::after {
   content: "";
@@ -302,8 +334,12 @@ img {
     text-decoration: underline;
     font-weight: 400; } }
 
+@media (min-width: 1024px) {
+  .main-menu {
+    padding-right: 240px; } }
+
 .page-main {
-  padding-top: 210px; }
+  padding-top: 100px; }
 
 @media (min-width: 430px) {
   .page-main {
@@ -546,3 +582,59 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; } }
+
+.tech-features {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 40px auto; }
+
+.tech-features h3 {
+  font-size: 16px; }
+
+.tech-features p {
+  font-size: 14px; }
+
+.tech-features li {
+  margin-bottom: 46px; }
+
+@media (min-width: 768px) {
+  .tech-features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .tech-features li {
+    width: 180px; } }
+
+.features {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 40px auto; }
+
+.features h3 {
+  font-size: 16px; }
+
+.features p {
+  font-size: 14px; }
+
+.features li {
+  margin-bottom: 46px; }
+
+@media (min-width: 768px) {
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .features li {
+    width: 224px; } }
