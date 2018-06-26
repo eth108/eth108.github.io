@@ -6,7 +6,7 @@ var openMenuBtn = document.querySelector('.show-nav');
 var menu = document.querySelector('.main-menu');
 // var messengers = document.querySelector('.messengers');
 
-if (screen.width < 780) {
+if (screen.width < 1024) {
   document.querySelector('.desc').classList.add('visually-hidden');
 } else {
   document.querySelector('.desc').classList.remove('visually-hidden');
