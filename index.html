@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui">
   <title>Miner</title>
   <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="main-header">
@@ -27,23 +27,23 @@
       <li class="main-menu__item"><a class="main-menu__link" href="">Консалтинг</a></li>
       <li class="main-menu__item"><a class="main-menu__link" href="">Контакты</a></li>
     </ul>
-    <ul class="messengers">
-      <li class="messengers__telegram">
-        <a class="messengers__link" title="Telegram" href="tg://resolve?domain=..."><i class="fab fa-telegram-plane"></i><span></span></a>
-      </li>
-      <li class="messengers__vk">
-        <a class="messengers__link" title="Vkontakte" href="..."><i class="fab fa-vk"></i><span></span></a>
-      </li>
-      <li class="messengers__whatsapp">
-        <a class="messengers__link" title="WhatsApp" href="whatsapp://send?phone=+79324278044"><i class="fab fa-whatsapp"></i><span></span></a>
-      </li>
-      <li class="messengers__instagram">
-        <a class="messengers__link" title="Instagram" href="https://www.instagram.com/.../" target="_blank"><i class="fab fa-instagram"></i><span></span></a>
-      </li>
-      <li class="messengers__call">
-        <button class="messengers_call-button" type="button">Заказать звонок</button>
-      </li>
-    </ul>
+    <!--<ul class="messengers">-->
+    <!--<li class="messengers__telegram">-->
+    <!--<a class="messengers__link" title="Telegram" href="tg://resolve?domain=..."><i class="fab fa-telegram-plane"></i><span></span></a>-->
+    <!--</li>-->
+    <!--<li class="messengers__vk">-->
+    <!--<a class="messengers__link" title="Vkontakte" href="..."><i class="fab fa-vk"></i><span></span></a>-->
+    <!--</li>-->
+    <!--<li class="messengers__whatsapp">-->
+    <!--<a class="messengers__link" title="WhatsApp" href="whatsapp://send?phone=+79324278044"><i class="fab fa-whatsapp"></i><span></span></a>-->
+    <!--</li>-->
+    <!--<li class="messengers__instagram">-->
+    <!--<a class="messengers__link" title="Instagram" href="https://www.instagram.com/.../" target="_blank"><i class="fab fa-instagram"></i><span></span></a>-->
+    <!--</li>-->
+    <!--<li class="messengers__call">-->
+    <!--<button class="messengers_call-button" type="button">Заказать звонок</button>-->
+    <!--</li>-->
+    <!--</ul>-->
   </nav>
 </header>
 <main class="page-main">
@@ -51,17 +51,6 @@
     <div class="top-block">
       <section class="slider">
         <img src="http://via.placeholder.com/780x530">
-      </section>
-      <section class="support">
-        <h2>Оставь заявку</h2>
-        <p>И получи полную информацию по наличию и действующим скидкам</p>
-        <form action="" method="post">
-          <label for="name">Имя:</label>
-          <input type="text" id="name">
-          <label for="contact">Телефон или email:</label>
-          <input type="text" id="contact">
-          <button class="btn support-btn">Отправить</button>
-        </form>
       </section>
     </div>
     <section class="brands">
@@ -216,7 +205,7 @@
           <a href="" class="btn popular__price-btn">Прайс на услуги</a>
         </section>
       </section>
-      
+
     </section>
     <ul class="tech-features">
       <li>
@@ -241,23 +230,131 @@
       </li>
     </ul>
     <ul class="features">
-      <li>
+      <li class="features__delivery">
         <h3>Доставка по всей России</h3>
         <p>Провереснные перевозчики: быстро, безопасно, надежно! Возможна отправка в СНГ</p>
       </li>
-      <li>
+      <li class="features__guarantees">
         <h3>Гарантии</h3>
         <p>Оборудование с гарантией до 36 мес. - прямые поставки с заводов производителей</p>
       </li>
-      <li>
+      <li class="features__treaty">
         <h3>Договор</h3>
         <p>Сделка сопровождается заключением договора с указанием сроков поставки</p>
       </li>
-      <li>
+      <li class="features__tech-reliability">
         <h3>Надежность машин</h3>
         <p>Все майнинг-машины имеют сертификат качества от производителя, являются новыми и не требуют ухода</p>
       </li>
     </ul>
+    <h2 class="own-features__text">Главные наши преимущества</h2>
+    <div class="own-feature__wr">
+      <section class="own-feature__item own-feature__item--experience">
+        <h3>Опыт</h3>
+        <p>В промышленном майнинге с 2015 года</p>
+      </section>
+      <section class="own-feature__item own-feature__item--reliability">
+        <h3>Надежность</h3>
+        <p>Наша репутация говорит сама за себя</p>
+      </section>
+    </div>
+    <div class="media-wr">
+      <p class="bitnews">Пишем статьи для <a href="https://bitnovosti.com/category/majning-novosti/" target="_blank">BITNOVOSTI.COM</a>
+        в раздел МАЙНИНГА</p>
+      <p class="meetup">Наше <a href="https://www.youtube.com/channel/UCyjpUPq3WEK77i7I31Uw4Cg" target="_blank">выступление</a>
+        на митапе IBCG в Москве</p>
+    </div>
+    <section class="soft-features">
+      <section class="sofr-features__item">
+        <h3>Mining EYE+</h3>
+        <p>Собственный софт мониторинга ферм с продвинутыми настройками</p>
+      </section>
+      <section class="sofr-features__item">
+        <h3>Mining Monitor</h3>
+        <p>Собственный софт мониторинга ферм с продвинутыми настройками</p>
+      </section>
+      <section class="sofr-features__item">
+        <h3>Profit+</h3>
+        <p>Майнинг перспективных коинов с малой сложностью</p>
+      </section>
+      <section class="sofr-features__item">
+        <h3>Turbosmart</h3>
+        <p>Правильный разгон оборудования без лишнего износа компонентов</p>
+      </section>
+    </section>
+    <section class="products">
+      <section class="products__item">
+        <h2>Дата центр</h2>
+        <div class="products__color-wr"></div>
+        <img src="img/data-center1.png">
+        <button class="products__open-btn btn" type="button">Подробнее</button>
+        <section class="products__desc">
+          <h3 class="products__title">Этапы подключения</h3>
+          <ul class="products__data-steps">
+            <li>Заключение договора</li>
+            <li>Прием оборудования</li>
+            <li>От 5 до 10 дней размещаем, подключаем, настраиваем на максимальную стабильность и
+              доходность оборудования
+            </li>
+            <li>Обеспечиваем охрану и стабильность работы майнеров</li>
+          </ul>
+          <h3 class="products__title">Почему выгодно разместить оборудование у нас?</h3>
+          <ul class="products__data-features">
+            <li>Контролируем работу оборудования 24/7 и устраняем ошибки быстрее, чем вы сможете
+              сделать это самостоятельно
+            </li>
+            <li>Дата центр расположен на территории режимного объекта, находится под круглосуточной
+              охраной и оборудован омплексной системой безопасности
+            </li>
+            <li>Ваше оборудование принимается на ответственное хранение по договору, в сопровождении
+              акта с перечнем серийных номеров
+            </li>
+            <li>Центр оборудован мощной системой охлаждения, приточной и отточной системами
+              вентиляции
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="products__item">
+        <h2>Иммерсионное охлаждение</h2>
+        <div class="products__color-wr"></div>
+        <img src="img/emirs.png">
+        <button class="products__open-btn btn" type="button">Подробнее</button>
+        <section class="products__desc">
+          <h3 class="products__title">Главный плюс до 20-30% прироста хэшрейта!</h3>
+          <p>Принцип работы иммерсионного жидкостного охлаждения ASIC'ов достаточно простой для понимания. Поскольку
+            охлаждающая жидкость абсолютно
+            нетоксична и является диэлектриком, мы без каких-либо опасений погружаем работающий
+            ASIC (асик) в контейнер с жидкостью.</p>
+          <p>При необходимости ее можно без проблем смыть с оборудования.</p>
+          <p>Оборудование работает и выделяет тепло, которое нагревает жидкость. Теплоемкость
+            жидкости в 4000 раз выше теплоемкости воздуха, что позволяет отводить тепло в разы
+            меньшим объемом теплоносителя.</p>
+          <p>В данном случае основная задача сводится к тому, чтобы качественно отводить тепло от самой
+            жидкости и поддерживать температуру такой, чтобы температура на чипах майнеров не
+            превышала допустимую и позволяла работать на максимальной производительности без
+            перебоев. Благодаря эффективному жидкостному охлаждению, оборудование может работать
+            на высоких мощностях без риска перегрева, даже при большом разгоне.</p>
+          <h3 class="products__title">Хорошая теплоотдача, максимальная мощность, без пыли, без шума</h3>
+        </section>
+      </section>
+
+      <section class="products__item">
+        <h2>Контейнер</h2>
+        <div class="products__color-wr"></div>
+        <img src="img/container.png">
+        <button class="products__open-btn btn" type="button">Подробнее</button>
+        <section class="products__desc">
+          <h3 class="products__title">Контейнер для промышленного майнинга</h3>
+          <p>Мы сотрудничаем с надежной компанией по производству контейнеров, предназначенных
+            для промышленного майнинга.</p>
+          <p>Их разработки создают мобильность, компактность и безопасность ваших майнинг ферм,
+            сокращают расходы на арендную плату и увеличивают эффективность добычи. Также они
+            разрабатывают контейнеры для майнинга с учетом всех ваших пожеланий и требований.</p>
+        </section>
+      </section>
+    </section>
   </div>
 </main>
 <footer>
@@ -265,6 +362,6 @@
 </footer>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/flipclock.min.js"></script>
-<script src="js/script.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
