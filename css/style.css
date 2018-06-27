@@ -1058,6 +1058,7 @@ img {
 
 .products__desc {
     display: none;
+    padding: 0 20px;
 }
 
 .products__open-btn {
