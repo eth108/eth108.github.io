@@ -50,14 +50,22 @@ img {
 }
 
 .double-gradient {
+    background: -webkit-linear-gradient(219deg, rgba(209, 240, 245, 0.8), rgba(255, 0, 0, 0) 35.71%), -webkit-linear-gradient(323deg, rgba(228, 249, 234, 0.8), rgba(0, 255, 0, 0) 35.71%);
+    background: -o-linear-gradient(219deg, rgba(209, 240, 245, 0.8), rgba(255, 0, 0, 0) 35.71%), -o-linear-gradient(323deg, rgba(228, 249, 234, 0.8), rgba(0, 255, 0, 0) 35.71%);
     background: linear-gradient(231deg, rgba(209, 240, 245, 0.8), rgba(255, 0, 0, 0) 35.71%), linear-gradient(127deg, rgba(228, 249, 234, 0.8), rgba(0, 255, 0, 0) 35.71%);
 }
 
 .blue-gradient {
+    background-image: -webkit-gradient(linear, right top, left top, from(#fff), color-stop(10%, transparent), to(#9cc1ff2e));
+    background-image: -webkit-linear-gradient(right, #fff, transparent 10%, #9cc1ff2e);
+    background-image: -o-linear-gradient(right, #fff, transparent 10%, #9cc1ff2e);
     background-image: linear-gradient(270deg, #fff, transparent 10%, #9cc1ff2e);
 }
 
 .green-gradient {
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(1%, transparent), to(#86ff9d2e));
+    background-image: -webkit-linear-gradient(left, #fff, transparent 1%, #86ff9d2e);
+    background-image: -o-linear-gradient(left, #fff, transparent 1%, #86ff9d2e);
     background-image: linear-gradient(90deg, #fff, transparent 1%, #86ff9d2e);
 }
 
@@ -114,14 +122,22 @@ img {
 
 @media (min-width: 1024px) {
     .main-header {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
     .main-header-wr {
         max-width: 1024px;
         margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
         align-items: flex-end;
         min-height: 84px;
     }
@@ -199,6 +215,8 @@ img {
 
 .messengers {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -243,6 +261,7 @@ img {
     position: absolute;
     top: 50%;
     -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     width: 0;
 }
@@ -373,6 +392,8 @@ img {
 
 @media (min-width: 1140px) {
     .main-header-wr {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         max-width: 1400px;
         padding: 0 40px;
@@ -454,6 +475,8 @@ img {
 
 @media (min-width: 1024px) {
     .main-menu {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         padding-left: 40px;
         font-size: 18px;
@@ -603,6 +626,8 @@ img {
 
 @media (min-width: 1024px) {
     .catalog {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin: 0 auto;
         max-width: 1024px;
@@ -611,8 +636,15 @@ img {
 }
 
 .popular {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     max-width: 320px;
     outline: 1px solid #e2e2e2;
@@ -932,8 +964,13 @@ img {
 
 @media (min-width: 1024px) {
     .own-feature__wr {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         max-width: 900px;
         margin: 0 auto;
@@ -984,8 +1021,13 @@ img {
 
 @media (min-width: 768px) {
     .soft-features {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 }
@@ -1025,8 +1067,13 @@ img {
 
 @media (min-width: 768px) {
     .products {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 }
@@ -1034,6 +1081,8 @@ img {
 @media (min-width: 1024px) {
     .products {
         padding: 50px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 
@@ -1052,6 +1101,8 @@ img {
     }
 
     .products__item:hover {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
         transform: scale(1.5);
         z-index: 13;
     }
@@ -1201,15 +1252,25 @@ img {
 
 @media (min-width: 1024px) {
     .about-us__features-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         margin: 0 auto;
     }
 
     .about-us__stages-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
     }
 
@@ -1288,7 +1349,11 @@ img {
     }
 
     .contacts__wr {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 20px 0;
     }
@@ -1331,13 +1396,20 @@ img {
 }
 
 .main-footer__wr {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 20px 30px;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
     align-items: baseline;
     max-width: 1400px;
     margin: 0 auto;
@@ -1358,6 +1430,7 @@ img {
     display: none;
     background: #fff;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
     width: 300px;
     min-height: 220px;
