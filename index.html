@@ -30,7 +30,6 @@
 </header>
 <main class="page-main">
   <div class="green-gradient">
-    <!--<iframe src="https://bitnovosti.com/category/majning-novosti/" width="500" height="500"></iframe>-->
     <div class="top-block elem">
       <p class="desc">Профессиональный майнинг в промышленных объемах<span class="desc__info">GPU, ASIC, ФЕРМЫ под ключ от 30 кВт (от 5 дней)</span>
       </p>
@@ -211,10 +210,16 @@
       </section>
     </div>
     <div class="media-wr">
-      <p class="bitnews">Пишем статьи для <a href="https://bitnovosti.com/category/majning-novosti/" target="_blank">BITNOVOSTI.COM</a>
-        в раздел МАЙНИНГА</p>
-      <p class="meetup">Наше <a href="https://www.youtube.com/watch?v=NT6ocmLIM-o" target="_blank">выступление</a>
-        на митапе IBCG в Москве</p>
+      <section class="bitnews">
+        <iframe src="https://bitnovosti.com/category/majning-novosti/"></iframe>
+        <p class="bitnews__text">Пишем статьи для <a href="https://bitnovosti.com/category/majning-novosti/" target="_blank" frameborder="0">BITNOVOSTI.COM</a>
+          в раздел МАЙНИНГА</p>
+      </section>
+      <section class="meetup">
+        <iframe src="https://www.youtube.com/embed/NT6ocmLIM-o?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p class="meetup__text">Наше <a href="https://www.youtube.com/watch?v=NT6ocmLIM-o" target="_blank">выступление</a>
+          на митапе IBCG в Москве</p>
+      </section>
     </div>
   </div>
   <div class="blue-gradient">
@@ -329,23 +334,24 @@
   <section class="consulting elem">
     <h2 class="consulting__title">Консалтинг</h2>
     <div class="consulting__wr">
-    <div class="consulting__info">
-    <p class="consulting__text">Получите первую консультацию технического специалиста на предмет окупаемости, дохода,
-      алгоритмов и т.д. по телефону или при личной встрече, абсолютно бесплатно</p>
-    <p class="consulting__text">Поможем с легкостью войти в сферу майнинга криптовалют</p>
-    </div>
-    <section class="support">
-      <h2>Оставь заявку</h2>
-      <form action="" method="post">
-        <label for="name">Имя:</label>
-        <input type="text" name="name" id="name">
-        <label for="contact">Телефон или email:</label>
-        <input type="text" name="contact" id="contact" required>
-        <label for="message">Сообщение:</label>
-        <textarea name="message" id="message"></textarea>
-        <button class="btn support-btn">Отправить</button>
-      </form>
-    </section>
+      <div class="consulting__info">
+        <p class="consulting__text">Получите первую консультацию технического специалиста на предмет окупаемости,
+          дохода,
+          алгоритмов и т.д. по телефону или при личной встрече, абсолютно бесплатно</p>
+        <p class="consulting__text">Поможем с легкостью войти в сферу майнинга криптовалют</p>
+      </div>
+      <section class="support">
+        <h2>Оставь заявку</h2>
+        <form action="" method="post">
+          <label for="name">Имя:</label>
+          <input type="text" name="name" id="name">
+          <label for="contact">Телефон или email:</label>
+          <input type="text" name="contact" id="contact" required>
+          <label for="message">Сообщение:</label>
+          <textarea name="message" id="message"></textarea>
+          <button class="btn support-btn">Отправить</button>
+        </form>
+      </section>
     </div>
     <!--<button type="button" class="btn consulting__btn">Получить консультацию</button>-->
   </section>

@@ -589,6 +589,17 @@ img {
     padding: 0 0 1px;
 }
 
+.media-wr iframe {
+    width: 100%;
+    height: 260px;
+    max-width: 464px;
+    margin: 0 auto;
+}
+
+.bitnews iframe {
+    border: 1px solid #cccccc;
+}
+
 .btn {
     background: #6eaae0;
     display: block;
@@ -610,6 +621,22 @@ img {
 }
 
 @media (min-width: 768px) {
+
+    .media-wr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    .media-wr iframe {
+        margin: 0;
+    }
+
+    .bitnews, .meetup {
+        max-width: 464px;
+    }
+
     .catalog__popular {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -784,6 +811,16 @@ img {
 }
 
 @media (min-width: 1024px) {
+
+    .media-wr {
+        max-width: 1300px;
+        margin: 20px auto 0;
+    }
+
+    .media-wr iframe {
+        height: 300px;
+    }
+
     .catalog__list {
         text-align: left;
         margin-right: auto;
@@ -953,6 +990,15 @@ img {
 }
 
 .bitnews, .meetup {
+    display: flex;
+    flex-direction: column;
+}
+
+.bitnews {
+    margin-bottom: 20px;
+}
+
+.bitnews__text, .meetup__text {
     text-align: center;
     color: #313131;
     font-weight: 700;
@@ -994,12 +1040,12 @@ img {
         font-size: 20px;
     }
 
-    .bitnews {
+    .bitnews__text {
         font-size: 20px;
         margin: 30px 0 44px 0;
     }
 
-    .meetup {
+    .meetup__text {
         font-size: 20px;
     }
 
