@@ -55,19 +55,19 @@ img {
     background: linear-gradient(231deg, rgba(209, 240, 245, 0.8), rgba(255, 0, 0, 0) 35.71%), linear-gradient(127deg, rgba(228, 249, 234, 0.8), rgba(0, 255, 0, 0) 35.71%);
 }
 
-.blue-gradient {
-    background-image: -webkit-gradient(linear, right top, left top, from(#fff), to(#e1ecff));
-    background-image: -webkit-linear-gradient(right, #fff, #e1ecff);
-    background-image: -o-linear-gradient(right, #fff, #e1ecff);
-    background-image: linear-gradient(270deg, #fff, #e1ecff);
-}
+/*.blue-gradient {*/
+/*background-image: -webkit-gradient(linear, right top, left top, from(#fff), to(#e1ecff));*/
+/*background-image: -webkit-linear-gradient(right, #fff, #e1ecff);*/
+/*background-image: -o-linear-gradient(right, #fff, #e1ecff);*/
+/*background-image: linear-gradient(270deg, #fff, #e1ecff);*/
+/*}*/
 
-.green-gradient {
-    background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#dbffe2));
-    background-image: -webkit-linear-gradient(left, #fff, #dbffe2);
-    background-image: -o-linear-gradient(left, #fff, #dbffe2);
-    background-image: linear-gradient(90deg, #fff, #dbffe2);
-}
+/*.green-gradient {*/
+/*background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#dbffe2));*/
+/*background-image: -webkit-linear-gradient(left, #fff, #dbffe2);*/
+/*background-image: -o-linear-gradient(left, #fff, #dbffe2);*/
+/*background-image: linear-gradient(90deg, #fff, #dbffe2);*/
+/*}*/
 
 .elem {
     margin: 0 auto;
@@ -77,7 +77,7 @@ img {
 
 @media (min-width: 768px) {
     .elem {
-        padding: 30px;
+        padding: 10px 30px;
     }
 }
 
@@ -362,7 +362,7 @@ img {
     font-weight: 700;
     font-size: 18px;
     text-align: center;
-    color: #6d6d6d;
+    text-shadow: 4px 5px 9px #b1b1b1
 }
 
 .desc__info {
@@ -370,12 +370,12 @@ img {
     text-transform: none;
     font-size: 11px;
     display: block;
+    text-shadow: none;
 }
 
 @media (min-width: 768px) {
     .desc {
         margin: 30px auto;
-        color: #8a8a8a;
     }
 }
 
@@ -538,7 +538,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
-    color: #848484;
+    /*color: #848484;*/
 }
 
 .support p {
@@ -553,6 +553,7 @@ img {
 
 .support textarea {
     width: 100%;
+    max-width: 100%;
     min-height: 70px;
     border: 1px solid #afafaf;
 }
@@ -650,6 +651,15 @@ img {
     outline: 1px solid #e2e2e2;
     padding: 8px;
     background: #fff;
+}
+
+.popular a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.popular__wr {
+    display: none;
 }
 
 .popular:not(last-child) {
@@ -854,7 +864,7 @@ img {
     font-size: 16px;
     padding: 0 20px;
     line-height: 26px;
-    color: #a7a7a7;
+    color: #313131;
     font-weight: 700;
 }
 
@@ -923,7 +933,7 @@ img {
     padding: 0 20px;
     text-align: center;
     line-height: 26px;
-    color: #a7a7a7;
+    color: #313131;
     font-weight: 700;
 }
 
@@ -944,7 +954,7 @@ img {
 
 .bitnews, .meetup {
     text-align: center;
-    color: #6d6d6d;
+    color: #313131;
     font-weight: 700;
     padding: 0 20px;
 }
@@ -1045,7 +1055,7 @@ img {
 .products h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #6d6d6d;
+    color: #313131;
 }
 
 .products__data-steps, .products__data-features {
@@ -1157,7 +1167,7 @@ img {
     background-image: url("../img/bitcoins.jpeg");
     background-size: cover;
     background-position: top;
-    color: #6d6d6d;
+    /*color: #6d6d6d;*/
 }
 
 .about-us__features-list {
@@ -1170,7 +1180,7 @@ img {
     font-size: 20px;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 
@@ -1179,8 +1189,8 @@ img {
     text-align: center;
     margin: 0 auto 40px;
     padding-top: 80px;
-    line-height: 26px;
-    color: #a7a7a7;
+    line-height: 20px;
+    color: #313131;
     font-weight: 700;
 }
 
@@ -1212,21 +1222,21 @@ img {
     font-size: 20px;
     text-align: center;
     font-weight: 700;
-    margin: 40px 0 50px;
-    color: #6d6d6d;
+    margin: 20px 0 ;
+    text-shadow: 4px 5px 9px #b1b1b1
 }
 
 .about-us__stages-list {
     list-style: none;
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-us__stages-list li {
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 20px;
+    line-height: 22px;
+    margin-bottom: 0;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1234,16 +1244,16 @@ img {
 @media (min-width: 768px) {
     .about-us__title {
         font-size: 30px;
-        margin: 50px 0 60px;
+        margin: 30px 0;
     }
 
     .about-us__comission {
         font-size: 22px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .about-us__stages-list li {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .about-us__title {
@@ -1281,10 +1291,9 @@ img {
 }
 
 .consulting {
-    background-image: url("../img/consulting.jpg");
-    background-size: cover;
-    background-position: top;
-    color: #6d6d6d;
+    /*background-image: url("../img/consulting.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: top;*/
 }
 
 .consulting__title {
@@ -1294,6 +1303,7 @@ img {
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    text-shadow: 4px 5px 9px #b1b1b1;
 }
 
 .contacts__title {
@@ -1303,7 +1313,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin: 64px 0 0;
-    color: #828282;
+    text-shadow: 4px 5px 9px #b1b1b1;
 }
 
 .consulting__text {
@@ -1326,8 +1336,8 @@ img {
     font-size: 24px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #828282;
     text-align: center;
+    text-shadow: 4px 5px 9px #b1b1b1
 }
 
 .calc-block__text {
@@ -1335,7 +1345,7 @@ img {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #828282;
+    color: #313131;
 }
 
 .contacts__map {
@@ -1344,6 +1354,16 @@ img {
 }
 
 @media (min-width: 768px) {
+
+    .consulting__wr {
+        display: flex;
+    }
+
+    .consulting__info {
+        margin-right: 6%;
+        padding-top: 20px;
+    }
+
     .contacts__map {
         width: 100%;
         height: 450px;
@@ -1366,7 +1386,7 @@ img {
     }
 
     .contacts__map-wr {
-        max-width: 50%;
+        /*max-width: 50%;*/
         width: 100%;
     }
 

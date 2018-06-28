@@ -47,11 +47,6 @@
     <img src="http://via.placeholder.com/220x70">
   </section>
   <div class="blue-gradient">
-    <div class="btn-to-calc-wr">
-      <button type="button" class="btn btn-to-calc">Рассчитать прибыль</button>
-    </div>
-  </div>
-  <div class="blue-gradient">
     <section class="catalog">
       <div class="catalog__wr">
         <section class="catalog__list">
@@ -67,33 +62,35 @@
       </div>
       <section class="catalog__popular">
         <article class="popular">
+          <img src="img/antiminerL3+.png">
+          <h2>Antminer L3+</h2>
           <div class="popular__wr">
-            <img src="img/antiminerL3+.png">
-            <h2>Antminer L3+</h2>
             <p class="popular__algorithm">Алгоритм Scrypt</p>
             <p>Хэштет асика Antminer L3 — составляет 504 MH/s, требует энергии около 800 Вт, это очень
               экономный показатель.В моделе asic майнера с USB Antminer L3 + есть 288 микроскопических схем,
               это вдвое больше, чем в прототипе. За счёт такого усиления из 4 asrock плат удвоена и
               эффективность добычи Litecoin.</p>
           </div>
+          <a href="">подробнее</a>
           <button class="btn popular__order-btn">Заказать</button>
         </article>
         <article class="popular">
+          <img src="img/antiminerS9.png">
+          <h2>Antminer S9</h2>
           <div class="popular__wr">
-            <img src="img/antiminerS9.png">
-            <h2>Antminer S9</h2>
             <p class="popular__algorithm">Алгоритм SHA-256</p>
             <p>Уровень потребления электричества в 1300 Вт система выдает 13,5 +/- 5 % ТН
               Внутреннее наполнение устройства состоит из трех параллельно расположенных процессорных
               плат, к каждой из которых подключены чипы ВМ-1387
               В общей сложности 189 чипов, распределенных по трем платам.</p>
           </div>
+          <a href="">подробнее</a>
           <button class="btn popular__order-btn">Заказать</button>
         </article>
         <article class="popular">
+          <img src="img/gtx1060.jpg">
+          <h2>Geforce GTX 1060</h2>
           <div class="popular__wr">
-            <img src="img/gtx1060.jpg">
-            <h2>Geforce GTX 1060</h2>
             <table class="popular__table">
               <tr>
                 <td>Хешрейт:</td>
@@ -118,12 +115,13 @@
               <tr>
             </table>
           </div>
+          <a href="">подробнее</a>
           <button class="btn popular__order-btn">Заказать</button>
         </article>
         <article class="popular">
+          <img src="img/rx470.jpg">
+          <h2>Radeon RX 470</h2>
           <div class="popular__wr">
-            <img src="img/rx470.jpg">
-            <h2>Radeon RX 470</h2>
             <table class="popular__table">
               <tr>
                 <td>Хешрейт:</td>
@@ -148,9 +146,16 @@
               <tr>
             </table>
           </div>
+          <a href="">подробнее</a>
           <button class="btn popular__order-btn">Заказать</button>
         </article>
       </section>
+    </section>
+  </div>
+  <div class="green-gradient">
+    <section class="calc-block elem">
+      <h3 class="calc-block__title">Калькулятор правильного майнинга</h3>
+      <p class="calc-block__text">Не сомневайтесь - проверьте потенциальный заработок вашего оборудования</p>
     </section>
   </div>
   <div class="green-gradient">
@@ -323,33 +328,31 @@
   </div>
   <section class="consulting elem">
     <h2 class="consulting__title">Консалтинг</h2>
+    <div class="consulting__wr">
+    <div class="consulting__info">
     <p class="consulting__text">Получите первую консультацию технического специалиста на предмет окупаемости, дохода,
       алгоритмов и т.д. по телефону или при личной встрече, абсолютно бесплатно</p>
     <p class="consulting__text">Поможем с легкостью войти в сферу майнинга криптовалют</p>
-    <button type="button" class="btn consulting__btn">Получить консультацию</button>
-  </section>
-  <div class="green-gradient">
-    <section class="calc-block elem">
-      <h3 class="calc-block__title">Калькулятор правильного майнинга</h3>
-      <p class="calc-block__text">Не сомневайтесь - проверьте потенциальный заработок вашего оборудования</p>
+    </div>
+    <section class="support">
+      <h2>Оставь заявку</h2>
+      <form action="" method="post">
+        <label for="name">Имя:</label>
+        <input type="text" name="name" id="name">
+        <label for="contact">Телефон или email:</label>
+        <input type="text" name="contact" id="contact" required>
+        <label for="message">Сообщение:</label>
+        <textarea name="message" id="message"></textarea>
+        <button class="btn support-btn">Отправить</button>
+      </form>
     </section>
-  </div>
+    </div>
+    <!--<button type="button" class="btn consulting__btn">Получить консультацию</button>-->
+  </section>
   <div class="blue-gradient">
     <section class="contacts elem">
       <h2 class="contacts__title">Контакты</h2>
       <div class="contacts__wr">
-        <section class="support">
-          <h2>Оставь заявку</h2>
-          <form action="" method="post">
-            <label for="name">Имя:</label>
-            <input type="text" name="name" id="name">
-            <label for="contact">Телефон или email:</label>
-            <input type="text" name="contact" id="contact" required>
-            <label for="message">Сообщение:</label>
-            <textarea name="message" id="message"></textarea>
-            <button class="btn support-btn">Отправить</button>
-          </form>
-        </section>
         <div class="contacts__map-wr">
           <ul class="messengers">
             <li class="messengers__telegram">
