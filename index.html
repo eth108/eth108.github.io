@@ -6,8 +6,11 @@
   <title>Miner</title>
   <script defer="" src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 </head>
 <body>
+<div class="page-wr">
 <header class="main-header">
   <div class="main-header-wr">
     <div class="main-header__img-wr">
@@ -24,6 +27,7 @@
         <li class="main-menu__item"><a class="main-menu__link" href="">О компании</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="">Консалтинг</a></li>
         <li class="main-menu__item"><a class="main-menu__link" href="">Контакты</a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="">Полезные ссылки</a></li>
       </ul>
     </nav>
   </div>
@@ -33,18 +37,15 @@
     <div class="top-block elem">
       <p class="desc">Профессиональный майнинг в промышленных объемах<span class="desc__info">GPU, ASIC, ФЕРМЫ под ключ от 30 кВт (от 5 дней)</span>
       </p>
-      <section class="slider">
-        <img src="http://via.placeholder.com/780x530">
+      <section class="slider owl-carousel">
+        <img src="img/slide1.jpg">
+        <img src="img/slide2.jpeg">
+        <img src="img/slide3.jpg">
+        <img src="img/slide4.jpg">
       </section>
+      <div class="owl-dots"></div>
     </div>
   </div>
-  <section class="brands">
-    <img src="http://via.placeholder.com/220x70">
-    <img src="http://via.placeholder.com/220x70">
-    <img src="http://via.placeholder.com/220x70">
-    <img src="http://via.placeholder.com/220x70">
-    <img src="http://via.placeholder.com/220x70">
-  </section>
   <div class="blue-gradient">
     <section class="catalog">
       <div class="catalog__wr">
@@ -63,6 +64,7 @@
         <article class="popular">
           <img src="img/antiminerL3+.png">
           <h2>Antminer L3+</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
           <div class="popular__wr">
             <p class="popular__algorithm">Алгоритм Scrypt</p>
             <p>Хэштет асика Antminer L3 — составляет 504 MH/s, требует энергии около 800 Вт, это очень
@@ -70,12 +72,12 @@
               это вдвое больше, чем в прототипе. За счёт такого усиления из 4 asrock плат удвоена и
               эффективность добычи Litecoin.</p>
           </div>
-          <a href="">подробнее</a>
-          <button class="btn popular__order-btn">Заказать</button>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
         </article>
         <article class="popular">
           <img src="img/antiminerS9.png">
           <h2>Antminer S9</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
           <div class="popular__wr">
             <p class="popular__algorithm">Алгоритм SHA-256</p>
             <p>Уровень потребления электричества в 1300 Вт система выдает 13,5 +/- 5 % ТН
@@ -83,12 +85,12 @@
               плат, к каждой из которых подключены чипы ВМ-1387
               В общей сложности 189 чипов, распределенных по трем платам.</p>
           </div>
-          <a href="">подробнее</a>
-          <button class="btn popular__order-btn">Заказать</button>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
         </article>
         <article class="popular">
           <img src="img/gtx1060.jpg">
           <h2>Geforce GTX 1060</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
           <div class="popular__wr">
             <table class="popular__table">
               <tr>
@@ -114,12 +116,12 @@
               <tr>
             </table>
           </div>
-          <a href="">подробнее</a>
-          <button class="btn popular__order-btn">Заказать</button>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
         </article>
         <article class="popular">
           <img src="img/rx470.jpg">
           <h2>Radeon RX 470</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
           <div class="popular__wr">
             <table class="popular__table">
               <tr>
@@ -145,8 +147,69 @@
               <tr>
             </table>
           </div>
-          <a href="">подробнее</a>
-          <button class="btn popular__order-btn">Заказать</button>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
+        </article>
+        <article class="popular">
+          <img src="img/rx470.jpg">
+          <h2>Radeon RX 470</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
+          <div class="popular__wr">
+            <table class="popular__table">
+              <tr>
+                <td>Хешрейт:</td>
+                <td>24 Mh/s</td>
+              </tr>
+              <tr>
+                <td>Объем памяти:</td>
+                <td>8 Gb</td>
+              </tr>
+              <tr>
+                <td>Частота:</td>
+                <td>5700 МГц</td>
+              </tr>
+              <tr>
+                <td>Ядро:</td>
+                <td>1254 MHz</td>
+              </tr>
+              <tr>
+                <td>Энергопотребление:</td>
+                <td>120 Вт</td>
+              </tr>
+              <tr>
+            </table>
+          </div>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
+        </article>
+        <article class="popular">
+          <img src="img/rx470.jpg">
+          <h2>Radeon RX 470</h2>
+          <a class="popular__show-desc-btn" href="">подробнее</a>
+          <div class="popular__wr">
+            <table class="popular__table">
+              <tr>
+                <td>Хешрейт:</td>
+                <td>24 Mh/s</td>
+              </tr>
+              <tr>
+                <td>Объем памяти:</td>
+                <td>8 Gb</td>
+              </tr>
+              <tr>
+                <td>Частота:</td>
+                <td>5700 МГц</td>
+              </tr>
+              <tr>
+                <td>Ядро:</td>
+                <td>1254 MHz</td>
+              </tr>
+              <tr>
+                <td>Энергопотребление:</td>
+                <td>120 Вт</td>
+              </tr>
+              <tr>
+            </table>
+          </div>
+          <button class="btn popular__order-btn show-feedback">Заказать</button>
         </article>
       </section>
     </section>
@@ -157,26 +220,33 @@
       <p class="calc-block__text">Не сомневайтесь - проверьте потенциальный заработок вашего оборудования</p>
     </section>
   </div>
-  <div class="green-gradient">
-    <section class="soft-features elem">
-      <section class="sofr-features__item">
-        <h3>Mining EYE+</h3>
-        <p>Собственный софт мониторинга ферм с продвинутыми настройками</p>
-      </section>
-      <section class="sofr-features__item">
-        <h3>Mining Monitor</h3>
-        <p>Собственный софт мониторинга ферм с продвинутыми настройками</p>
-      </section>
-      <section class="sofr-features__item">
-        <h3>Profit+</h3>
-        <p>Майнинг перспективных коинов с малой сложностью</p>
-      </section>
-      <section class="sofr-features__item">
-        <h3>Turbosmart</h3>
-        <p>Правильный разгон оборудования без лишнего износа компонентов</p>
-      </section>
-    </section>
-  </div>
+  <!--<div class="green-gradient">-->
+    <!--<section class="soft-features elem">-->
+      <!--<section class="sofr-features__item">-->
+        <!--<h3>Mining EYE+</h3>-->
+        <!--<p>Собственный софт мониторинга ферм с продвинутыми настройками</p>-->
+      <!--</section>-->
+      <!--<section class="sofr-features__item">-->
+        <!--<h3>Mining Monitor</h3>-->
+        <!--<p>Собственный софт мониторинга ферм с продвинутыми настройками</p>-->
+      <!--</section>-->
+      <!--<section class="sofr-features__item">-->
+        <!--<h3>Profit+</h3>-->
+        <!--<p>Майнинг перспективных коинов с малой сложностью</p>-->
+      <!--</section>-->
+      <!--<section class="sofr-features__item">-->
+        <!--<h3>Turbosmart</h3>-->
+        <!--<p>Правильный разгон оборудования без лишнего износа компонентов</p>-->
+      <!--</section>-->
+    <!--</section>-->
+  <!--</div>-->
+  <section class="brands elem">
+    <img src="http://via.placeholder.com/220x70">
+    <img src="http://via.placeholder.com/220x70">
+    <img src="http://via.placeholder.com/220x70">
+    <img src="http://via.placeholder.com/220x70">
+    <img src="http://via.placeholder.com/220x70">
+  </section>
   <div class="blue-gradient">
     <ul class="features elem">
       <li class="features__delivery">
@@ -277,7 +347,7 @@
             превышала допустимую и позволяла работать на максимальной производительности без
             перебоев. Благодаря эффективному жидкостному охлаждению, оборудование может работать
             на высоких мощностях без риска перегрева, даже при большом разгоне.</p>
-          <h3 class="products__title">Хорошая теплоотдача, максимальная мощность, без пыли, без шума</h3>
+          <h3 class="products__title products__title--bottom">Хорошая теплоотдача, максимальная мощность, без пыли, без шума</h3>
         </section>
       </section>
 
@@ -293,6 +363,22 @@
           <p>Их разработки создают мобильность, компактность и безопасность ваших майнинг ферм,
             сокращают расходы на арендную плату и увеличивают эффективность добычи. Также они
             разрабатывают контейнеры для майнинга с учетом всех ваших пожеланий и требований.</p>
+        </section>
+      </section>
+
+      <section class="products__item">
+        <h2>Модернизация ферм</h2>
+        <div class="products__color-wr"></div>
+        <img src="img/container.png">
+        <button class="products__open-btn btn" type="button">Подробнее</button>
+        <section class="products__desc">
+          <h3 class="products__title">Модернизация ферм и реконструкция инженерных систем</h3>
+          <p>Аудит и модернизация ваших ферм для снижения издержек</p>
+          <p>Сборка настройка дополнительных GPU ригов и ASIC устройств</p>
+          <p>Монтаж и настройка локальной сети и мульти интернет соединения</p>
+          <p>Мониторинг ферм с анализом прибыли</p>
+          <p>Проектирование и монтаж эффективной вентиляции</p>
+          <p>Проектирование и монтаж надежных электросетей</p>
         </section>
       </section>
     </section>
@@ -388,7 +474,7 @@
     <p>Узнать все подробности!</p>
     <form>
       <label for="contact">Телефон:</label>
-      <input type="contact" id="tel" name="contact">
+      <input type="contact" id="tel" name="contact" required>
       <button class="btn popup__btn" type="submit">Отправить</button>
     </form>
   </section>
@@ -400,8 +486,10 @@
     <a href="mailto:mymail@mail.test">testmail@mail.test</a>
   </div>
 </footer>
+</div>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/flipclock.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
