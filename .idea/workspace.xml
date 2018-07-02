@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77f3a4e-703e-432b-9a0e-f5c25559f234" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/asics.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blocks.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/services.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/videocards.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/img/slide2.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/slide3.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
@@ -22,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            <state relative-caret-position="416">
+              <caret line="550" column="8" lean-forward="false" selection-start-line="550" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#div#7;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -34,8 +40,48 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="992" column="26" lean-forward="false" selection-start-line="992" selection-start-column="26" selection-end-line="992" selection-end-column="26" />
+            <state relative-caret-position="-46">
+              <caret line="1507" column="12" lean-forward="false" selection-start-line="1507" selection-start-column="12" selection-end-line="1507" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asics.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videocards.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/videocards.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blocks.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blocks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-579">
+              <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -44,8 +90,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+            <state relative-caret-position="462">
+              <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -55,36 +101,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>popular__wr</find>
-      <find>.desc</find>
-      <find>.contacts__title</find>
-      <find>calc</find>
-      <find>map-wr</find>
-      <find>consulting</find>
-      <find>.about-us__title</find>
-      <find>.about-us__comi</find>
-      <find>.about-us__stages-list</find>
-      <find>if</find>
-      <find>bitnew</find>
-      <find>media-w</find>
-      <find>me</find>
       <find>meetup</find>
       <find>bitnews</find>
       <find>media</find>
-      <find>.popular</find>
       <find>soft-features</find>
       <find>bod</find>
       <find>body</find>
-      <find>slider</find>
       <find>place</find>
       <find>color-wr</find>
       <find>теплоот</find>
       <find>1400</find>
       <find>50</find>
       <find>отправить</find>
-      <find>подробне</find>
       <find>top-bl</find>
       <find>desc</find>
+      <find>344</find>
+      <find>подробне</find>
+      <find>popular__wr</find>
+      <find>кальку</find>
+      <find>brands</find>
+      <find>calc</find>
+      <find>slide</find>
+      <find>slider</find>
+      <find>popular {</find>
+      <find>.popular {</find>
+      <find>видеокарты</find>
+      <find>l3</find>
+      <find>калькулятор</find>
+      <find>.popular</find>
+      <find>popup</find>
+      <find>popular</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,7 +139,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="C:/xampp/htdocs/laconix-zrs/Server/Components/portfolio_compare/portfolio_compare_dev.html" />
+        <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/asics.html" />
+        <option value="$PROJECT_DIR$/videocards.html" />
+        <option value="$PROJECT_DIR$/blocks.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
@@ -150,11 +201,6 @@
             <path>
               <item name="miner" type="b2602c69:ProjectViewProjectNode" />
               <item name="miner" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miner" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -167,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/laconix-zrs" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -196,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529993141847</updated>
       <workItem from="1529993143925" duration="67720000" />
-      <workItem from="1530471137360" duration="9486000" />
+      <workItem from="1530471137360" duration="32096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77206000" />
+    <option name="totallyTimeSpent" value="99816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -263,28 +309,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/xampp/htdocs/laconix-zrs/Server/Components/portfolio_compare/portfolio_compare_dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="416">
+          <caret line="550" column="8" lean-forward="false" selection-start-line="550" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#div#7;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/asics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/videocards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="303" column="0" lean-forward="false" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="26" column="84" lean-forward="false" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+        <state relative-caret-position="462">
+          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="992" column="26" lean-forward="false" selection-start-line="992" selection-start-column="26" selection-end-line="992" selection-end-column="26" />
+        <state relative-caret-position="-46">
+          <caret line="1507" column="12" lean-forward="false" selection-start-line="1507" selection-start-column="12" selection-end-line="1507" selection-end-column="12" />
           <folding />
         </state>
       </provider>

@@ -56,6 +56,11 @@ $('.popular__show-desc-btn').click(function (evt) {
   $(this).next().show();
   $(this).hide();
 });
+
+$('.popup__close-btn').click(function (evt) {
+  $('.popup').hide();
+  $('.popup__color').hide();
+});
 // var DESCTOP_WIDTH = 1024;
 // var DESCTOP_PADDING = 30;
 // var MOBILE_PADDING = 20;
