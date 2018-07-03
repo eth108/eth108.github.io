@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77f3a4e-703e-432b-9a0e-f5c25559f234" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/asics.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blocks.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/services.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/videocards.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/slide2.jpeg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/slide3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="1507" column="12" lean-forward="false" selection-start-line="1507" selection-start-column="12" selection-end-line="1507" selection-end-column="12" />
+            <state relative-caret-position="269">
+              <caret line="669" column="16" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -101,7 +92,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>meetup</find>
       <find>bitnews</find>
       <find>media</find>
       <find>soft-features</find>
@@ -131,6 +121,7 @@
       <find>.popular</find>
       <find>popup</find>
       <find>popular</find>
+      <find>.media-wr iframe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,7 +147,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="6" />
     <option name="width" value="1370" />
     <option name="height" value="1032" />
@@ -242,15 +233,15 @@
       <option name="presentableId" value="Default" />
       <updated>1529993141847</updated>
       <workItem from="1529993143925" duration="67720000" />
-      <workItem from="1530471137360" duration="32096000" />
+      <workItem from="1530471137360" duration="33475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99816000" />
+    <option name="totallyTimeSpent" value="101195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -369,8 +360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="1507" column="12" lean-forward="false" selection-start-line="1507" selection-start-column="12" selection-end-line="1507" selection-end-column="12" />
+        <state relative-caret-position="269">
+          <caret line="669" column="16" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="16" />
           <folding />
         </state>
       </provider>
