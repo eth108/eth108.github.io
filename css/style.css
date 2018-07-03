@@ -1750,6 +1750,7 @@ input::-webkit-inner-spin-button {
     background-image: url("../img/cancel.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fff;
     width: 14px;
     height: 14px;
     position: absolute;
