@@ -1748,6 +1748,7 @@ input::-webkit-inner-spin-button {
 
 .popup__close-btn {
     background: url("../img/cancel.svg");
+    background-repeat: no-repeat;
     width: 14px;
     height: 14px;
     position: absolute;
