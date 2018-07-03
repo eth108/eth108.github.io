@@ -1256,7 +1256,42 @@ img {
     font-size: 24px;
 }
 
+.call-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.call-btn-active {
+    background-color: #41d558;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-btn a {
+    display: block;
+    background-image: url("../img/call.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
 @media (min-width: 768px) {
+
+    .call-btn {
+        display: none;
+    }
+
     .soft-features {
         display: -webkit-box;
         display: -ms-flexbox;

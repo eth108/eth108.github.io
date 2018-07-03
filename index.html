@@ -238,49 +238,60 @@
       <section class="calc-block elem">
         <h3 class="calc-block__title">Калькулятор правильного майнинга</h3>
         <p class="calc-block__text">Не сомневайтесь - проверьте потенциальный заработок вашего оборудования</p>
-        <!--<form>-->
-          <!--<div class="calc-block__calc-content">-->
-            <!--<select>-->
-              <!--<option disabled selected>Выберите криптовалюту</option>-->
-              <!--<option>Bitcoin (SHA256)</option>-->
-              <!--<option>Litecoin (Scrypt)</option>-->
-              <!--<option>Ethereum (Ethash)</option>-->
-            <!--</select>-->
-            <!--<div class="field">-->
-              <!--<label for="hash">Ваш хешрейт</label>-->
-              <!--<input type="number" id="hash" name="hash">-->
-            <!--</div>-->
-            <!--<div class="field">-->
-              <!--<label for="electricity">Энергопотребление устройства (кВт/ч)</label>-->
-              <!--<input type="number" id="electricity" name="electricity">-->
-            <!--</div>-->
-            <!--<div class="field">-->
-              <!--<label for="electricity-price">Стоимость электричества (руб.)</label>-->
-              <!--<input type="number" id="electricity-price" name="electricity-price">-->
-            <!--</div>-->
-            <!--&lt;!&ndash;<fieldset>&ndash;&gt;-->
-            <!--&lt;!&ndash;<legend>Период расчета</legend>&ndash;&gt;-->
-            <!--<div class="field">-->
-            <!--<p>Период расчета</p>-->
-            <!--<input type="radio" name="period" id="6month">-->
-            <!--<label for="6month">6 мес.</label>-->
-            <!--<input type="radio" name="period" id="12month">-->
-            <!--<label for="12month">12 мес.</label>-->
-            <!--<input type="radio" name="period" id="18month">-->
-            <!--<label for="18month">18 мес.</label>-->
-            <!--</div>-->
-            <!--&lt;!&ndash;</fieldset>&ndash;&gt;-->
-            <!--<div class="field">-->
-            <!--<label for="expected-price">Желаемая стоимость выбранной крипто к концу периода ($)</label>-->
-            <!--<input type="number" id="expected-price" name="expected-price">-->
-            <!--</div>-->
-            <!--<div class="field">-->
-            <!--<label for="percent">Ожидаемый ежемесячный рост сложности (%)</label>-->
-            <!--<input type="number" id="percent" name="percent">-->
-            <!--</div>-->
-            <!--<button>Рассчитать</button>-->
-          <!--</div>-->
-        <!--</form>-->
+        <form id="calc_form">
+          <div class="calc-block__calc-content">
+            <select name="crypt">
+              <option disabled selected>Выберите криптовалюту</option>
+              <option value="btc">Bitcoin (SHA256)</option>
+              <option value="ltc">Litecoin (Scrypt)</option>
+              <option value="eth">Ethereum (Ethash)</option>
+            </select>
+            <div class="field">
+              <label for="hash">Ваш хешрейт</label>
+              <input type="number" id="hash" name="hash">
+            </div>
+            <div class="field">
+              <label for="electricity">Энергопотребление устройства (кВт/ч)</label>
+              <input type="number" step="0.01" id="electricity" name="electricity">
+            </div>
+            <div class="field">
+              <label for="electricity-price">Стоимость электричества (руб.)</label>
+              <input type="number" step="0.01" id="electricity-price" name="electricity-price">
+            </div>
+            <!--<fieldset>-->
+            <!--<legend>Период расчета</legend>-->
+            <div class="field">
+              <p>Период расчета</p>
+              <input type="radio" name="period" value="6" id="6month">
+              <label for="6month">6 мес.</label>
+              <input type="radio" name="period" value="12" id="12month">
+              <label for="12month">12 мес.</label>
+              <input type="radio" name="period" value="18" id="18month">
+              <label for="18month">18 мес.</label>
+            </div>
+            <!--</fieldset>-->
+            <div class="field">
+              <label for="expected-price">Желаемая стоимость выбранной крипто к концу периода ($)</label>
+              <input type="number" step="0.01" id="expected-price" name="expected-price">
+            </div>
+            <div class="field">
+              <label for="percent">Ожидаемый ежемесячный рост сложности (%)</label>
+              <input type="number" step="0.01" id="percent" name="percent">
+            </div>
+            <button>Рассчитать</button>
+          </div>
+        </form>
+        <form id="add_form" style="display: none">
+          <div class="field">
+            <label for="expected-plant-price">Стоимость оборудования ($)</label>
+            <input type="number" step="0.01" id="expected-plant-price" name="expected-plant-price">
+          </div>
+          <div class="field">
+            <label for="expected-ustotalProfitd">Ориентировочный курс доллара к рублю</label>
+            <input type="number" step="0.01" id="expected-usd" name="expected-usd">
+          </div>
+          <button>Рассчитать</button>
+        </form>
       </section>
     </div>
     <!--<div class="green-gradient">-->
@@ -348,7 +359,7 @@
       <div class="media-wr">
         <section class="bitnews">
           <div class="iframe-wr">
-          <iframe height="260" src="https://bitnovosti.com/category/majning-novosti/"></iframe>
+            <iframe height="260" src="https://bitnovosti.com/category/majning-novosti/"></iframe>
           </div>
           <p class="bitnews__text">Пишем статьи для <a href="https://bitnovosti.com/category/majning-novosti/"
                                                        target="_blank" frameborder="0">BITNOVOSTI.COM</a>
@@ -356,8 +367,8 @@
         </section>
         <section class="meetup">
           <div class="iframe-wr">
-          <iframe height="260" src="https://www.youtube.com/embed/NT6ocmLIM-o?rel=0" frameborder="0"
-                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe height="260" src="https://www.youtube.com/embed/NT6ocmLIM-o?rel=0" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
           <p class="meetup__text">Наше <a href="https://www.youtube.com/watch?v=NT6ocmLIM-o"
                                           target="_blank">выступление</a>
@@ -555,6 +566,9 @@
       <button type="button" class="popup__close-btn"><span class="visually-hidden">закрыть</span></button>
     </section>
     <div class="popup__color"></div>
+    <div class="call-btn">
+      <a href="tel:+79529193388"><span class="visually-hidden">Позвонить</span></a>
+    </div>
   </main>
   <footer class="main-footer">
     <div class="main-footer__wr">

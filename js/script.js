@@ -12,6 +12,48 @@ var menu = document.querySelector('.main-menu');
 //   document.querySelector('.desc').classList.remove('visually-hidden');
 // }
 
+$(function () {
+    var API = '/calc.php';
+    var form = $("#calc_form");
+    var data = null;
+    var done = function (json) {
+        console.log(json);
+        //json.total
+
+        var addForm = $('#add_form');
+        addForm.show();
+        addForm.on('submit', function (e) {
+            e.preventDefault();
+            var data = addForm.serializeArray();
+            var plantPrice = data[0].value;
+            var expectedUSD = data[1].value;
+
+            console.log(plantPrice, expectedUSD);
+
+            var totalProfit = (json.total.expectedTotalProfit - (json.total.powerPeriodPriceRU / expectedUSD)).toFixed(2);
+            var totalMonth = (plantPrice / (totalProfit / json.total.period)).toFixed(2);
+
+            console.log(totalProfit, totalMonth);
+
+            return false;
+        });
+        return false;
+    };
+
+    var fail = function (json) {
+        console.log(json);
+    };
+
+    form.on('submit', function (e) {
+        e.preventDefault();
+        $.when($.getJSON(API, {
+            calc_data: form.serializeArray(form)
+        })).then(done, fail);
+        return false;
+    });
+
+});
+
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     items: 1,
@@ -60,6 +102,22 @@ $('.popular__show-desc-btn').click(function (evt) {
 $('.popup__close-btn').click(function (evt) {
   $('.popup').hide();
   $('.popup__color').hide();
+});
+
+var callClickCount = 0;
+
+$('.call-btn a').click(function (evt) {
+  if(callClickCount == 0) {
+      evt.preventDefault();
+      callClickCount = 1;
+      $('.call-btn').addClass('call-btn-active');
+      $('.call-btn a').css({'background-image': 'url(img/call-active.svg)'});
+      setTimeout(function () {
+          callClickCount = 0;
+          $('.call-btn').removeClass('call-btn-active');
+          $('.call-btn a').css({'background-image': 'url(img/call.svg)'});
+      }, 2000);
+  }
 });
 // var DESCTOP_WIDTH = 1024;
 // var DESCTOP_PADDING = 30;
