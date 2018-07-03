@@ -1227,6 +1227,7 @@ img {
 
     .meetup__text {
         font-size: 20px;
+        margin-top: -16px;
     }
 
     .features__tech-reliability {
@@ -1344,9 +1345,9 @@ img {
         transition: transform .5s ease, -webkit-transform .5s ease;
     }
 
-    .products__item:last-of-type {
-        margin: 0 auto;
-    }
+    /*.products__item:last-of-type {*/
+        /*margin: 0 auto;*/
+    /*}*/
 
     .products__item:hover {
         -webkit-transform: scale(1.5);
