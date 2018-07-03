@@ -238,49 +238,49 @@
       <section class="calc-block elem">
         <h3 class="calc-block__title">Калькулятор правильного майнинга</h3>
         <p class="calc-block__text">Не сомневайтесь - проверьте потенциальный заработок вашего оборудования</p>
-        <form id="calc_form">
-          <div class="calc-block__calc-content">
-            <select name="crypt">
-              <option disabled selected>Выберите криптовалюту</option>
-              <option value="btc">Bitcoin (SHA256)</option>
-              <option value="ltc">Litecoin (Scrypt)</option>
-              <option value="eth">Ethereum (Ethash)</option>
-            </select>
-            <div class="field">
-              <label for="hash">Ваш хешрейт</label>
-              <input type="number" id="hash" name="hash">
-            </div>
-            <div class="field">
-              <label for="electricity">Энергопотребление устройства (кВт/ч)</label>
-              <input type="number" step="0.01" id="electricity" name="electricity">
-            </div>
-            <div class="field">
-              <label for="electricity-price">Стоимость электричества (руб.)</label>
-              <input type="number" step="0.01" id="electricity-price" name="electricity-price">
-            </div>
-            <!--<fieldset>-->
-            <!--<legend>Период расчета</legend>-->
-            <div class="field">
-              <p>Период расчета</p>
-              <input type="radio" name="period" value="6" id="6month">
-              <label for="6month">6 мес.</label>
-              <input type="radio" name="period" value="12" id="12month">
-              <label for="12month">12 мес.</label>
-              <input type="radio" name="period" value="18" id="18month">
-              <label for="18month">18 мес.</label>
-            </div>
-            <!--</fieldset>-->
-            <div class="field">
-              <label for="expected-price">Желаемая стоимость выбранной крипто к концу периода ($)</label>
-              <input type="number" step="0.01" id="expected-price" name="expected-price">
-            </div>
-            <div class="field">
-              <label for="percent">Ожидаемый ежемесячный рост сложности (%)</label>
-              <input type="number" step="0.01" id="percent" name="percent">
-            </div>
-            <button>Рассчитать</button>
-          </div>
-        </form>
+        <!--<form id="calc_form">-->
+          <!--<div class="calc-block__calc-content">-->
+            <!--<select name="crypt">-->
+              <!--<option disabled selected>Выберите криптовалюту</option>-->
+              <!--<option value="btc">Bitcoin (SHA256)</option>-->
+              <!--<option value="ltc">Litecoin (Scrypt)</option>-->
+              <!--<option value="eth">Ethereum (Ethash)</option>-->
+            <!--</select>-->
+            <!--<div class="field">-->
+              <!--<label for="hash">Ваш хешрейт</label>-->
+              <!--<input type="number" id="hash" name="hash">-->
+            <!--</div>-->
+            <!--<div class="field">-->
+              <!--<label for="electricity">Энергопотребление устройства (кВт/ч)</label>-->
+              <!--<input type="number" step="0.01" id="electricity" name="electricity">-->
+            <!--</div>-->
+            <!--<div class="field">-->
+              <!--<label for="electricity-price">Стоимость электричества (руб.)</label>-->
+              <!--<input type="number" step="0.01" id="electricity-price" name="electricity-price">-->
+            <!--</div>-->
+            <!--&lt;!&ndash;<fieldset>&ndash;&gt;-->
+            <!--&lt;!&ndash;<legend>Период расчета</legend>&ndash;&gt;-->
+            <!--<div class="field">-->
+              <!--<p>Период расчета</p>-->
+              <!--<input type="radio" name="period" value="6" id="6month">-->
+              <!--<label for="6month">6 мес.</label>-->
+              <!--<input type="radio" name="period" value="12" id="12month">-->
+              <!--<label for="12month">12 мес.</label>-->
+              <!--<input type="radio" name="period" value="18" id="18month">-->
+              <!--<label for="18month">18 мес.</label>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;</fieldset>&ndash;&gt;-->
+            <!--<div class="field">-->
+              <!--<label for="expected-price">Желаемая стоимость выбранной крипто к концу периода ($)</label>-->
+              <!--<input type="number" step="0.01" id="expected-price" name="expected-price">-->
+            <!--</div>-->
+            <!--<div class="field">-->
+              <!--<label for="percent">Ожидаемый ежемесячный рост сложности (%)</label>-->
+              <!--<input type="number" step="0.01" id="percent" name="percent">-->
+            <!--</div>-->
+            <!--<button>Рассчитать</button>-->
+          <!--</div>-->
+        <!--</form>-->
         <form id="add_form" style="display: none">
           <div class="field">
             <label for="expected-plant-price">Стоимость оборудования ($)</label>
