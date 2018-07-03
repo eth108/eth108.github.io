@@ -1747,8 +1747,9 @@ input::-webkit-inner-spin-button {
 }
 
 .popup__close-btn {
-    background: url("../img/cancel.svg");
+    background-image: url("../img/cancel.svg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 14px;
     height: 14px;
     position: absolute;
