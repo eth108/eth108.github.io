@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77f3a4e-703e-432b-9a0e-f5c25559f234" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/img/cancel.svg" afterPath="$PROJECT_DIR$/img/cancel.svg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,13 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
               <caret line="1229" column="26" lean-forward="false" selection-start-line="1229" selection-start-column="26" selection-end-line="1229" selection-end-column="26" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cancel.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/cancel.svg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -92,7 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>media</find>
       <find>soft-features</find>
       <find>bod</find>
       <find>body</find>
@@ -120,8 +126,9 @@
       <find>.popular</find>
       <find>popup</find>
       <find>popular</find>
-      <find>.media-wr iframe</find>
       <find>iframe</find>
+      <find>.media-wr iframe</find>
+      <find>fill</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,6 +145,7 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/img/cancel.svg" />
       </list>
     </option>
   </component>
@@ -192,6 +200,11 @@
             <path>
               <item name="miner" type="b2602c69:ProjectViewProjectNode" />
               <item name="miner" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="miner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miner" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -233,12 +246,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529993141847</updated>
       <workItem from="1529993143925" duration="67720000" />
-      <workItem from="1530471137360" duration="37253000" />
+      <workItem from="1530471137360" duration="37921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104973000" />
+    <option name="totallyTimeSpent" value="105641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -364,6 +377,11 @@
           <caret line="1229" column="26" lean-forward="false" selection-start-line="1229" selection-start-column="26" selection-end-line="1229" selection-end-column="26" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/cancel.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
